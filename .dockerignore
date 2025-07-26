@@ -1,0 +1,17 @@
+# Virtual environments
+myvenv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Git
+.git/
+
+# Environment files
+.env
