@@ -40,6 +40,10 @@ kpa_backend/
 │   └── wsgi.py            # WSGI configuration
 ├── utils/                 # Utility modules
 │   └── response.py        # Custom response utilities
+├── Dockerfile             # Docker configuration
+├── docker-compose.yml     # Docker Compose configuration
+├── .dockerignore          # Docker ignore file
+├── .gitignore             # Git ignore file
 ├── requirements.txt       # Python dependencies
 ├── sample.env            # Environment variables template
 └── manage.py             # Django management script
@@ -114,3 +118,8 @@ Interactive API documentation is available at:
 
 ## API Admein
 `http://localhost:8000/admin`
+
+
+
+## Also We can use Docker 
+   -> Follow `DOCKER.md`
